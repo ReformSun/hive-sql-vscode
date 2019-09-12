@@ -1,12 +1,11 @@
 {
-    "name": "hive-sql",
+    "name": "hive-sql-test",
     "version": "0.0.4",
-    "displayName": "Hive SQL",
+    "displayName": "Hive SQL Test",
     "description": "Adds support for Hive's variant of the SQL language",
-    "publisher": "josephtbradley",
+    "publisher": "sun",
     "author": {
-        "name": "Joseph T. Bradley",
-        "email": "jtbradley@gmail.com"
+        "name": "sun ji hua"
     },
     "license": "MIT",
     "icon": "extras/apache_hive.png",
@@ -19,9 +18,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/JoBrad/hive-sql-vscode.git"
+        "url": "https://github.com/ReformSun/hive-sql-vscode.git"
     },
-    "homepage": "https://github.com/JoBrad/hive-sql-vscode/blob/master/README.md",
+    "homepage": "https://raw.githubusercontent.com/ReformSun/hive-sql-vscode/master/README.md",
     "categories": [
         "Programming Languages"
     ],
@@ -45,6 +44,18 @@
             {
                 "language": "hive-sql",
                 "path": "./snippets/hive-sql.json"
+            },
+            {
+                "language": "hive-sql",
+                "path": "./snippets/hive-sql-type.json"
+            },
+            {
+                "language": "hive-sql",
+                "path": "./snippets/hive-sql-type-comment.json"
+            },
+            {
+                "language": "hive-sql",
+                "path": "./snippets/hive-sql-other.json"
             }
         ]
     }

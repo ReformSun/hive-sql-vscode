@@ -1,0 +1,116 @@
+{
+    "String": {
+        "prefix": "string",
+        "body": [
+            "STRING"
+        ]
+    },
+    "Varchar": {
+        "prefix": "varchar",
+        "body": [
+            "VARCHAR"
+        ]
+    },
+    "Char": {
+        "prefix": "char",
+        "body": [
+            "CHAR"
+        ]
+    },
+    "Tiny int": {
+        "prefix": "tinyint",
+        "body": [
+            "TINYINT"
+        ]
+    },
+    "Small int": {
+        "prefix": "smallint",
+        "body": [
+            "SMALLINT"
+        ]
+    },
+    "int": {
+        "prefix": "int",
+        "body": [
+            "INT"
+        ]
+    },
+    "big int": {
+        "prefix": "bigint",
+        "body": [
+            "BIGINT"
+        ]
+    },
+    "float": {
+        "prefix": "float",
+        "body": [
+            "FLOAT"
+        ]
+    },
+    "double": {
+        "prefix": "double",
+        "body": [
+            "DOUBLE"
+        ]
+    },
+    "decimal": {
+        "prefix": "decimal",
+        "body": [
+            "DECIMAL"
+        ]
+    },
+    "timestamp": {
+        "prefix": "timestamp",
+        "body": [
+            "TIMESTAMP"
+        ]
+    },
+    "date": {
+        "prefix": "date",
+        "body": [
+            "DATE"
+        ]
+    },
+    "interval": {
+        "prefix": "interval",
+        "body": [
+            "INTERVAL"
+        ]
+    },
+    "Boolean": {
+        "prefix": "boolean",
+        "body": [
+            "BOOLEAN"
+        ]
+    },
+    "Binary": {
+        "prefix": "binary",
+        "body": [
+            "BINARY"
+        ]
+    },
+    "Array": {
+        "prefix": "array",
+        "body": [
+            "ARRAY<${1:STRING}>"
+        ]
+    },
+    "Map": {
+        "prefix": "map",
+        "body": [
+            "MAP<${1:STRING},${2:STRING}>"
+        ]
+    },
+    "Struct": {
+        "prefix": "struct",
+        "body": [
+            "STRUCT<${1:column_names}:${2:STRING}, ${3:column_names}:${4:STRING}>"
+        ]
+    },
+    "Union type": {
+        "prefix": "uniontype",
+        "body": [
+            "UNIONTYPE"
+        ]
+    }
+}
